@@ -5,10 +5,9 @@
 
 input {
     border-color: #ddd;
-    font-weight: 200px;
-
     align-items: right;
     border-style: solid;
+
     width: 450px;
     height: 45px;
     border-radius: 5px;

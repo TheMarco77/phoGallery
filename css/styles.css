@@ -1,0 +1,25 @@
+* {
+    align-items: right;
+    background-color: #fff;
+}
+
+input {
+    border-color: #ddd;
+    font-weight: 200px;
+
+    align-items: right;
+    border-style: solid;
+    width: 450px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    margin-left: 180px;
+
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

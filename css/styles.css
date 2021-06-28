@@ -1,20 +1,12 @@
-/* * {
-    background-color: #fff;
-} */
-
 body {
-    display: grid;
-    grid-template-areas: ". search ."
-        ". gallery .";
-    grid-template-rows: 150px 1fr;
-    grid-template-columns: 1fr 3fr 1fr;
-    justify-items: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .search {
-    text-align: center;
     grid-area: search;
+    text-align: center;
     min-width: 100%;
 }
 
@@ -31,9 +23,22 @@ input {
 }
 
 .gallery {
-    display: grid;
-    grid-area: gallery;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery a {
+    margin: 25px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    max-width: 1000px;
+
 }

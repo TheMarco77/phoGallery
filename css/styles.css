@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 
-​ .search {
+.search {
     grid-area: search;
     text-align: center;
     width: 100%;
@@ -25,7 +25,7 @@ input {
     width: 65%;
 }
 
-​.gallery {
+.gallery {
     display: grid;
     grid-area: gallery;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
